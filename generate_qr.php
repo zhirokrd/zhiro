@@ -3,6 +3,6 @@
 include('phpqrcode/qrlib.php');
 
 // Generate the QR code with a URL (the page URL where form data is displayed)
-$url = "http://zhirokrd.github.io/zhiro/"; // Change to your actual website URL
+$url = "https://zhirokrd.github.io/zhiro/submit.php"; // 
 QRcode::png($url);
 ?>
